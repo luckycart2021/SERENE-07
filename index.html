@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - SERENE</title>
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="resources.html">RESOURCE CENTER</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>SERENE</h1>
+      <p>Together, we can mend minds and restore hope, one step at a time.</p>
+      <p>Welcome to SERENE, a digital haven dedicated to nurturing your mental well-being and guiding you towards a path of serenity. At SERENE, we believe that your mental health is a journey, not a destination.</p>
+      <a href="" class="hero-btn">Visit us to know more</a>
+    </div>
+  </section>
+
+  <!-- course -->
+  <section class="course">
+    <h1>WHY US?</h1>
+    <p>Choosing <i>SERENE</i> is choosing a fresh perspective on mental wellness. While we may be new, our innovative approach is rooted in a deep passion for guiding individuals towards emotional well-being. Our team, filled with enthusiasm and creativity, brings a unique blend of traditional psychology and cutting-edge techniques to the table. We're not here to offer cookie-cutter solutions; we're here to co-create a journey to mental health that's as unique as you are. With us, you'll experience the thrill of discovering fresh paths to well-being, and together, we'll rewrite the narrative of mental health. We're excited to embark on this transformative adventure with you.</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Innovation and Fresh Perspective</h3>
+        <p>Empowering You with a Fresh Perspective on Healing.</p>
+      </div>
+      <div class="course-col">
+        <h3>Resources</h3>
+        <p>Empower yourself with a treasure trove of mental health resources. Our library of knowledge is your path to emotional well-being.</p>
+      </div>
+      <div class="course-col">
+        <h3>Your Journey</h3>
+        <p>At SERENE, your journey to mental health is as unique as you are. Let's co-create your path to serenity, one step at a time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
